@@ -31,21 +31,10 @@
      }
 
 
-
-
-
-
-
-
-
-
-
-
-
  }
 
 //2. Creo istanze e attributi per new Biciletta
- $trek = new Bicicletta('Trek', 'Mountain Bike', 'verde', '10', '400');
+ $trek = new Bicicletta('Trek', 'Mountain Bike', 'verde', 10, 400);
 //  $trek->marca = 'Trek';
 //  $trek->modello = 'Mountain Bike';
 //  $trek->prezzo = '400';
@@ -54,7 +43,7 @@
 //  $trek->peso = '10';
 //  var_dump($trek);
 
- $atala = new Bicicletta('Atala', 'bici da città', 'rosso', '12', '299' );
+ $atala = new Bicicletta('Atala', 'bici da città', 'rosso', 12, 299);
 //  $atala->marca = 'Atala';
 //  $atala->modello = 'bici da città';
 //  $atala->prezzo = '299';
